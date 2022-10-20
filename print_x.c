@@ -31,7 +31,7 @@ int print_x(va_list x)
 				_putchar('0' + a[j]);
 			else
 				_putchar('0' + diff + a[j]);
-				counter++;
+			counter++;
 		}
 	}
 	return (counter);
